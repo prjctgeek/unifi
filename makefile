@@ -1,2 +1,5 @@
 build:
-	docker build -t prjctgeek/unifi_controller .
+	docker build -t prjctgeek/unifi .
+
+run:
+	docker run -d --net="host" prjctgeek/unifi
